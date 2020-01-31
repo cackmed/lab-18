@@ -1,12 +1,11 @@
 import React from 'react';
-
+import styles from './Header.css';
 
 const Header = () => (
     
-  <header>
+  <header className={styles.Header}>
     <section>
-      <h1>Resty Clone</h1>
-      <h2>not sure what else there is to say</h2>
+      <h1>Resty Clone - a clone of a clone</h1>
     </section>
   </header>
       
