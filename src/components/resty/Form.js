@@ -6,32 +6,33 @@ const Form = ({ onSubmit, onChange }) => (
   <>
     <form>
       <section>
-        <input type="text" name="url" placeholder="URL" value></input>
+        <input type="text" name="url" placeholder="URL"
+          onChange={onChange}></input>
         <div>
           <label>
             <input type="radio" name="method" value="get" onChange={onChange}>
-              <span>GET</span>
             </input>
+            <span>GET</span>
           </label>
           <label>
             <input type="radio" name="method" value="post" onChange={onChange}>
-              <span>POST</span>
             </input>
+            <span>POST</span>
           </label>
           <label>
             <input type="radio" name="method" value="put" onChange={onChange}>
-              <span>PUT</span>
             </input>
+            <span>PUT</span>
           </label>
           <label>
             <input type="radio" name="method" value="PATCH" onChange={onChange}>
-              <span>PATCH</span>
             </input>
+            <span>PATCH</span>
           </label>
           <label>
             <input type="radio" name="method" value="DELETE" onChange={onChange}>
-              <span>DELETE</span>
             </input>
+            <span>DELETE</span>
           </label>
           <label>
             <button type="submit" onSubmit={onSubmit}>Submit</button>
