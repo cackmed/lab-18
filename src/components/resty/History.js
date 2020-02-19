@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './History.css';
 
 
 const History = ({ onSubmit }) => (
-  <main className={styles.History}>
+  <main>
     <h2>History</h2>
     <ul onSubmit={onSubmit}></ul>
   </main>

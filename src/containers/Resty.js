@@ -8,7 +8,8 @@ import Footer from '../components/Footer';
 
 export default class Resty extends Component {
   state = {
-
+    response: '',
+    
   }
 handleChange = () => {
   console.log('Work in progress');
