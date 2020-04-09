@@ -1,0 +1,8 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 61, 95);
+    color: whitesmoke;
+    height: 60px;
+}
